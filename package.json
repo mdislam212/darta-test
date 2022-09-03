@@ -1,0 +1,26 @@
+{
+  "name": "drata-tests",
+  "version": "1.0.0",
+  "description": "drata tests for QA Opening",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-ui" : "npx cypress run",
+    "test-gui": "npx cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "jest": "^29.0.1",
+    "supertest": "^6.2.4",
+    "cy-mobile-commands": "^0.1.4",
+    "cypress-multi-reporters": "^1.4.0",
+    "cypress-wait-until": "^1.7.0",
+    "cypress-xpath": "^1.6.2",
+    "updeep": "^1.2.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
