@@ -6,6 +6,7 @@ describe('Drata UI -Test Cases -Suite1', () => {
       cy.visit('https://drata.com/')
       cy.viewport(1024, 768)
       cy.wait(10000)
+
   })
 
   it('TC1 Verify Drata Landing Page', () => {
